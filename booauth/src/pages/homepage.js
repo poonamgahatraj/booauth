@@ -27,7 +27,9 @@ export default function Homepage (){
                 </div>
         </div>
         <div style={{display:"flex"}}>
+            <div style={{display:"flex", flexDirection:"column"}}>
 
+            </div>
 
         </div>
         </>
