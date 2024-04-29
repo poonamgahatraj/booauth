@@ -14,24 +14,30 @@ import Scan_Qr from './pages/qr';
 import RemoveApp from './pages/removeapp';
 import Remove_User from './pages/removeuser';
 import Home from './pages/home';
+import Users from './pages/users';
+import Setting from './pages/setting';
 function App() {
   return (
     <div className="App">
      
-    <Homepage/>
-    <Login/>
-    <VerifyPage/>  
-    <ForgetPage/>
+    
+     <Add_application/>
+    
+<ForgetPage/>
+ <Login/>
+ <VerifyPage/> 
     <EmailCheck/>
     <NewPassword/>
     <Password_success/>
-    <Add_application/>
+    
     <Adduser/>
     <Authentic_App/>
     <Scan_Qr/>
     <RemoveApp/>
     <Remove_User/>
     <Home/>
+  <Users/>
+  <Setting/>
     </div>
   );
 }

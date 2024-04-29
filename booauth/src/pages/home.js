@@ -40,7 +40,7 @@ export default function Home (){
                 <p>You can manage,add or remove the application here</p>
                 </div>
                 <div>
-                    <button style={{padding:"10px",backgroundColor:'#DD5106'}}>+ Add application</button>
+                    <button style={{padding:"10px",backgroundColor:'#DD5106',border:"none", color:"white"}}>+ Add application</button>
                 </div>
                 </div>
 
@@ -59,10 +59,65 @@ export default function Home (){
                 </div>
                 </div>
                     <div style={{display:"flex"}}>
-                    <div className="Box1"></div>
-                <div className="Box1"></div>
-                <div className="Box1"></div>
-                <div className="Box1"></div>
+                    <div className="Box1">
+                        <div style={{padding:"15px"}}>
+                            <button style={{border:"none",backgroundColor:"#FFF7F3",height:"30px", width:"55%"}}>by BOOSoft</button>
+                            <div style={{display:"flex", justifyContent:"center", alignItems:"center",margin:"25px"}}>
+                                <img src='.\box1.png'></img>
+                            </div>
+                            <div style={{textAlign:"center"}}>
+                            <p style={{fontSize:"11px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                <div className="Box1">
+
+                <div style={{padding:"15px"}}>
+                            <button style={{border:"none",backgroundColor:"#FFF7F3",height:"30px", width:"55%"}}>by BOOSoft</button>
+                            <div style={{display:"flex", justifyContent:"center", alignItems:"center",margin:"25px"}}>
+                                <img src='.\box2.png'style={{height:"45px"}}></img>
+                            </div>
+                            <div style={{textAlign:"center"}}>
+                            <p style={{fontSize:"11px"}}>Lorem ipsum dolor sit amet, consectetur </p>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div className="Box1">
+                <div style={{padding:"15px"}}>
+                            <button style={{border:"none",backgroundColor:"#FFF7F3",height:"30px", width:"55%"}}>by BOOSoft</button>
+                            <div style={{display:"flex", justifyContent:"center", alignItems:"center",margin:"25px"}}>
+                                <img src='.\box3.png' style={{height:"45px"}}></img>
+                            </div>
+                            <div style={{textAlign:"center"}}>
+                            <p style={{fontSize:"11px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            
+                        </div>
+                </div>
+                <div className="Box1">
+                <div style={{padding:"15px"}}>
+                            <button style={{border:"none",backgroundColor:"#FFF7F3",height:"30px", width:"55%"}}>by BOOSoft</button>
+                            <div style={{display:"flex", justifyContent:"center", alignItems:"center",margin:"25px"}}>
+                                <img src='.\box4.png' style={{height:"45px"}}></img>
+                            </div>
+                            <div style={{textAlign:"center"}}>
+                            <p style={{fontSize:"11px"}}>Lorem ipsum dolor sit amet, consectetur </p>
+                            </div>
+                            
+                        </div>
+                </div>
+                    </div>
+
+                    <div style={{display:"flex"}}>
+                        <div className='Box2'> <p>Chromebook In-store</p></div>
+                        <div className='Box2'> <p>BAM</p></div>
+                        <div className='Box2'>
+                        <p>BOOChat</p></div>
+                        <div className='Box2'> <p>QR Generator</p></div>
+                       
+                       
                     </div>
                 
                 
