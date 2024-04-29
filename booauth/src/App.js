@@ -16,12 +16,13 @@ import Remove_User from './pages/removeuser';
 import Home from './pages/home';
 import Users from './pages/users';
 import Setting from './pages/setting';
+import Sidenav from './pages/sidenav';
 function App() {
   return (
     <div className="App">
      
     
-     <Add_application/>
+     {/* <Add_application/>
     
 <ForgetPage/>
  <Login/>
@@ -37,6 +38,8 @@ function App() {
     <Remove_User/>
     <Home/>
   <Users/>
+    <Sidenav/> */}
+
   <Setting/>
     </div>
   );
