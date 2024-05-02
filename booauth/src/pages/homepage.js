@@ -1,7 +1,7 @@
 export default function Homepage (){
     return(
         <>
-        <div style={{display:"flex", justifyContent:"space-between", border:"2px solid #DDDDDD", padding:"15px"}}>
+        <div style={{display:"flex", justifyContent:"space-between", border:"2px solid #DDDDDD", padding:"15px", height:"100%"}}>
                 <div style={{ display:"flex",  alignItems:"center"}}>
                     <img src=".\boohub_logo.png"></img>
                     <p style={{borderBottom:"2px solid #DD5106", marginLeft:"15%", fontSize:"20px"}}>Home</p>

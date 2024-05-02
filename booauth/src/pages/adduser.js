@@ -3,17 +3,18 @@ export default function Adduser (){
         <>
         <div style={{height:"100vh", width:"100%", backgroundColor:"rgba(128, 128, 128, 0.5)",display:"flex", justifyContent:"center",alignItems:"center"}}>
 
-<div style={{height:"47%", width:"30%", backgroundColor:"white", borderRadius:"2%"}}>
-    <div style={{margin:"25px"}}>
+<div style={{height:"48%", width:"25%", backgroundColor:"white", borderRadius:"2%"}}>
+    <div style={{margin:"25px", marginBottom:"0", marginTop:"10px"}}>
 
    
     <div style={{display:"flex",justifyContent:"space-between", alignItems:"center"}}>
         <p style={{fontWeight:'500'}}>Add User</p>
-        <img src=".\cross btn.svg"></img>
+       <button style={{border:"none", backgroundColor:"white"}}>x</button>
     </div>
-    <hr></hr>
+    </div>
+   <hr style={{border:"0.1px solid #1C1C1C26"}}></hr> 
    
-
+<div style={{margin:"25px"}}>
     <div>
         <form>
             <label style={{fontSize:"14px",fontWeight:"500"}}>Name of user</label><br></br>

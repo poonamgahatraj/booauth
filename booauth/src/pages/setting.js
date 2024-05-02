@@ -14,9 +14,9 @@ export default function Setting (){
 
             <div style={{display:"flex",alignItems:"center"}}>
                     <div>
-                        <div style={{border:"1 px solid #DD5106", height:"60px",width:"60px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center"}}>
-                        <div style={{border:"4 px solid white", height:"40px",width:"40px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center" }}>
-                        <div style={{border:"1 px solid #DD5106", height:"35px",width:"35px", borderRadius:"50px", backgroundColor:"#DD5106", display:"flex", justifyContent:"center", alignItems:"center" }}>
+                        <div style={{border:"1px solid #DD5106", height:"40px",width:"40px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center", marginRight:"10px"}}>
+                        <div style={{border:"1px solid white", height:"34px",width:"34px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center" }}>
+                        <div style={{border:"1px solid #DD5106", height:"30px",width:"30px", borderRadius:"50px", backgroundColor:"#DD5106", display:"flex", justifyContent:"center", alignItems:"center" }}>
                                 <p style={{color:"white"}}><b>BK</b></p>
                             
                             </div>
@@ -24,7 +24,7 @@ export default function Setting (){
                         </div>
                     </div>
 
-                    <div >
+                    <div  style={{marginRight:"15px"}}>
                     <p style={{margin:"0"}}>Bibash Khadka</p>
                     <p style={{margin:"0"}}>Admin</p>
                     </div>
@@ -36,7 +36,7 @@ export default function Setting (){
 
 
             </div>
-            <div style={{borderTop:"1px solid grey", height:"90%", paddingLeft:"2%",paddingRight:"2%"}}>
+            <div style={{borderTop:"1px solid #E1E1E7", height:"90%", paddingLeft:"2%",paddingRight:"2%"}}>
                 <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                 <div>
                 <p style={{fontWeight:"500"}}>Manage your account</p>
@@ -50,9 +50,9 @@ export default function Setting (){
                 <div style={{width:"20%",padding:"15px"}}>
                 <div style={{border:"1px solid #3F35321A", display:"flex", justifyContent:"space-between",alignItems:'center',padding:"10px"}}>
                     <div style={{display:"flex", alignItems:"center"}}>
-                    <div style={{border:"1 px solid #DD5106", height:"60px",width:"60px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center"}}>
-                        <div style={{border:"4 px solid white", height:"40px",width:"40px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center" }}>
-                        <div style={{border:"1 px solid #DD5106", height:"35px",width:"35px", borderRadius:"50px", backgroundColor:"#DD5106", display:"flex", justifyContent:"center", alignItems:"center" }}>
+                    <div style={{border:"1px solid #DD5106", height:"40px",width:"40px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center", marginRight:"10px"}}>
+                        <div style={{border:"1px solid white", height:"34px",width:"34px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center" }}>
+                        <div style={{border:"1px solid #DD5106", height:"30px",width:"30px", borderRadius:"50px", backgroundColor:"#DD5106", display:"flex", justifyContent:"center", alignItems:"center" }}>
                                 <p style={{color:"white"}}><b>BK</b></p>
                             
                             </div>
@@ -87,10 +87,10 @@ export default function Setting (){
           <p style={{fontWeight:"500"}}>General Information</p>
           <hr></hr>
 
-          <div style={{display:"flex", alignItems:"center"}}>
-                    <div style={{border:"1 px solid #DD5106", height:"100px",width:"100px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center"}}>
-                        <div style={{border:"4 px solid white", height:"100px",width:"100px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center" }}>
-                        <div style={{border:"1 px solid #DD5106", height:"75px",width:"75px", borderRadius:"50px", backgroundColor:"#DD5106", display:"flex", justifyContent:"center", alignItems:"center" }}>
+          <div style={{display:"flex", alignItems:"center", marginLeft:"5px",}}>
+                    <div style={{border:"1px solid #DD5106", height:"90px",width:"90px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center", marginRight:"10px"}}>
+                        <div style={{border:"1px solid white", height:"100px",width:"100px", borderRadius:"50px", display:"flex", justifyContent:"center", alignItems:"center" }}>
+                        <div style={{border:"1px solid #DD5106", height:"75px",width:"75px", borderRadius:"50px", backgroundColor:"#DD5106", display:"flex", justifyContent:"center", alignItems:"center" }}>
                                 <p style={{color:"white"}}><b>BK</b></p>
                             
                             </div>
@@ -121,7 +121,7 @@ export default function Setting (){
 
                     <hr></hr>
                     <div style={{display:"flex",padding:"10px",alignItems:"center", border:"1px solid #E1E1E7",marginTop:"3%", marginBottom:"3%", width:"80%"}}>
-                        <img src=".\auth_icon.webp" style={{height:"15px", marginRight:"2%"}}></img>
+                        <img src=".\auth_icon.webp" style={{height:"15px", marginRight:"2%",marginLeft:"1%"}}></img>
                         <div>
                             <p style={{marginBottom:"8px",margin:"0"}}>Authenticator App (TOTP)</p>
                             <p  style={{marginTop:"0",margin:"0"}}>USe a app to  receive a temporary one-time passcode each time you log in. </p>
@@ -136,7 +136,7 @@ export default function Setting (){
                     <p>To change your password,verify your current password that you haven't use elsewhere.</p><br></br>
                         <hr></hr>
 
-                    <div style={{width:"50%", marginTop:"4%", marginBottom:"5%"}}>
+                    <div style={{width:"50%", marginTop:"4%", marginBottom:"3%"}}>
 
                         <form>
                             <label>Old password (to verify it's you)</label><br></br>

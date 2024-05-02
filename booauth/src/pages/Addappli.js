@@ -3,7 +3,7 @@ export default function Add_application (){
         <>
         <div style={{height:"100%", width:"100%", backgroundColor:"rgba(128, 128, 128, 0.5)",display:"flex", justifyContent:"center",alignItems:"center"}}>
 
-            <div style={{ width:"30%",height:"65%", backgroundColor:"white", borderRadius:"2%", marginTop:"3%", marginBottom:"3%"}}>
+            <div style={{ width:"32%", backgroundColor:"white", borderRadius:"2%",height:"93%",marginTop:'5%',marginBottom:"5%"}}>
                 <div style={{margin:"25px"}}>
 
                

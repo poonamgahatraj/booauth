@@ -17,31 +17,73 @@ import Home from './pages/home';
 import Users from './pages/users';
 import Setting from './pages/setting';
 import Sidenav from './pages/sidenav';
+import InvitationPage from './pages/invitation';
+import PassChangeReq from './pages/passwordChangeReq';
 function App() {
   return (
     <div className="App">
      
     
-     {/* <Add_application/>
+     {/*
     
-<ForgetPage/>
- <Login/>
- <VerifyPage/> 
-    <EmailCheck/>
-    <NewPassword/>
-    <Password_success/>
     
-    <Adduser/>
-    <Authentic_App/>
-    <Scan_Qr/>
-    <RemoveApp/>
-    <Remove_User/>
-    <Home/>
+
+
+
+<Adduser/>
+
+
+
+<RemoveApp/>
+<Remove_User/>
+
+
+
+ 
+ 
+    
+   
+  
+    
+    
+    
+    
+    
+    
+   
   <Users/>
     <Sidenav/> */}
+    {/* 
+    
+   
+  
+   
+   <Login/>
+   */
+   }
 
-  <Setting/>
-    </div>
+{/* 
+
+<Home/> 
+
+*/}
+
+<Login/>
+<VerifyPage/>
+<InvitationPage/>
+
+<Home/>
+<Setting/>
+<ForgetPage/> 
+
+<Authentic_App/>
+<Scan_Qr/>
+<EmailCheck/>
+<PassChangeReq/>
+<NewPassword/>
+<Password_success/>
+
+   </div>
   );
 }
 

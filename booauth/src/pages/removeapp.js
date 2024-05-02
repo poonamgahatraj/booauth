@@ -27,7 +27,7 @@ export default function RemoveApp(){
 
     
 
-    <div style={{display:"flex",justifyContent:"flex-end",marginTop:"20px"}}>
+    <div style={{display:"flex",justifyContent:"flex-end",marginTop:"10%"}}>
         <button style={{border:"none", backgroundColor:"#F1F1F1",height:"35px",width:"20%",borderRadius:"5px"}}>Cancel</button>
         <button style={{border:"none", backgroundColor:"#DD5106",height:"35px",width:"30%",marginLeft:"20px",color:"white",borderRadius:"5px"}}>Remove access</button>
     </div>

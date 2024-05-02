@@ -7,13 +7,13 @@ export default function Scan_Qr(){
           
         <div style={{height:"100vh", width:"100%", backgroundColor:"rgba(128, 128, 128, 0.5)",display:"flex", justifyContent:"center",alignItems:"center"}}>
 
-<div style={{height:"57%", width:"30%", backgroundColor:"white", borderRadius:"2%"}}>
+<div style={{width:"34%", backgroundColor:"white", borderRadius:"2%"}}>
     <div style={{margin:"25px"}}>
 
    
     <div style={{display:"flex",justifyContent:"flex-end", alignItems:"center"}}>
         
-        <img src=".\cross btn.svg"></img>
+    <button style={{border:"none", backgroundColor:"white"}}>x</button>
     </div>
    
    
@@ -38,7 +38,7 @@ export default function Scan_Qr(){
 
     
 
-    <div style={{display:"flex",justifyContent:"flex-end",marginTop:"20px"}}>
+    <div style={{display:"flex",justifyContent:"flex-end",marginTop:"8%"}}>
         <button style={{border:"none", backgroundColor:"#F1F1F1",height:"35px",width:"20%",borderRadius:"5px"}}>Cancel</button>
         <button style={{border:"none", backgroundColor:"#DD5106",height:"35px",width:"30%",marginLeft:"20px",color:"white",borderRadius:"5px"}}>Set Up</button>
     </div>

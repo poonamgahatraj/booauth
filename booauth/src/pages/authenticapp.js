@@ -3,13 +3,13 @@ export default function Authentic_App(){
         <>
         <div style={{height:"100vh", width:"100%", backgroundColor:"rgba(128, 128, 128, 0.5)",display:"flex", justifyContent:"center",alignItems:"center"}}>
 
-<div style={{height:"57%", width:"30%", backgroundColor:"white", borderRadius:"2%"}}>
+<div style={{ width:"34%", backgroundColor:"white", borderRadius:"2%"}}>
     <div style={{margin:"25px"}}>
 
    
     <div style={{display:"flex",justifyContent:"flex-end", alignItems:"center"}}>
         
-        <img src=".\cross btn.svg"></img>
+    <button style={{border:"none", backgroundColor:"white"}}>x</button>
     </div>
    
    
@@ -28,7 +28,7 @@ export default function Authentic_App(){
     </div>
 
     <div  style={{display:"flex",alignItems:"center"}}>
-        <img src=".\microsoft_auth.png" style={{height:"30px", width:"40px", borderRadius:"5px",marginRight:"10px"}}></img>
+        <img src=".\microsoft_auth.png" style={{height:"34px", width:"35px", borderRadius:"5px",marginRight:"10px"}}></img>
         <div>
             <p style={{fontSize:"14px",marginBottom:"0"}}>Microsoft Authenticator</p>
             <p style={{fontSize:"12px",marginTop:"0"}}>From Microsoft</p>
