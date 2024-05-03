@@ -1,6 +1,14 @@
+import { useState } from "react";
+import Authentic_App from "./authenticapp";
 import Sidenav from "./sidenav";
 
 export default function Setting (){
+
+    const[showapp,setShowapp]=useState(false)
+function show_authapp(){
+setShowapp(true)
+}
+
     return(
         <>
         <div style={{display:"flex"}}>
@@ -70,7 +78,7 @@ export default function Setting (){
                 <div style={{marginTop:"20%"}}>
 
                 <div style={{padding:"12px",color:"#F97031", fontWeight:"500", borderLeft:"2px solid #F97031"}}>General Information</div>
-                <div style={{padding:"12px"}}>Two-Factor authentication</div>
+                <div style={{padding:"12px"}} onClick={show_authapp}>Two-Factor authentication</div>
                 <div style={{padding:"12px"}}>Update password</div>
                 </div>
                 
@@ -162,6 +170,13 @@ export default function Setting (){
         </div>
         </div>
         </div>
+{showapp &&
+
+<div>
+            <Authentic_App/>
+        </div>
+}
+        
         </>
     )
 }

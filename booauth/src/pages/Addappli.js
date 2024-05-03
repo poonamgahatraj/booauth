@@ -1,6 +1,15 @@
+import { useState } from "react"
+
 export default function Add_application (){
+
+    const[popup,setPopup]=useState(true)
+    function removePopup(){
+        setPopup(false)
+        document.body.style.overflow =  'scroll';
+    }
     return(
         <>
+        {popup &&
         <div style={{height:"100%", width:"100%", backgroundColor:"rgba(128, 128, 128, 0.5)",display:"flex", justifyContent:"center",alignItems:"center"}}>
 
             <div style={{ width:"32%", backgroundColor:"white", borderRadius:"2%",height:"93%",marginTop:'5%',marginBottom:"5%"}}>
@@ -9,7 +18,7 @@ export default function Add_application (){
                
                 <div style={{display:"flex",justifyContent:"space-between", alignItems:"center"}}>
                     <p style={{fontWeight:'500'}}>Add Application</p>
-                    <img src=".\cross btn.svg"></img>
+                    <img src=".\cross btn.svg" onClick={removePopup}></img>
                 </div>
                 <hr></hr>
                 <div style={{display:"flex",alignItems:"center"}}>
@@ -44,6 +53,7 @@ export default function Add_application (){
             </div>
 
         </div>
+}
         </>
     )
 }

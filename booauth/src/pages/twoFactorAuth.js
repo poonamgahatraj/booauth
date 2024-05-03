@@ -27,7 +27,7 @@ export default function VerifyPage(){
             <div>
                 <p style={{fontSize:"20px",textAlign:"center", fontWeight:"500", margin:"0"}}>Two-factor authentication</p>
                 <div style={{display:"flex",justifyContent:"center"}}>
-                <p style={{fontSize:"18px",textAlign:"center", width:"70%", lineHeight:"1.5"}}>To continue, Enter the code the two-factor app on your mobile device.</p>
+                <p style={{fontSize:"15px",textAlign:"center", width:"80%", lineHeight:"1.5"}}>To continue, Enter the code the two-factor app on your mobile device.</p>
                 </div>
                
             </div>

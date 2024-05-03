@@ -3,7 +3,7 @@ export default function Remove_User(){
         <>
          <div style={{height:"100vh", width:"100%", backgroundColor:"rgba(128, 128, 128, 0.5)",display:"flex", justifyContent:"center",alignItems:"center"}}>
 
-<div style={{height:"30%", width:"25%", backgroundColor:"white", borderRadius:"2%"}}>
+<div style={{ width:"32%", backgroundColor:"white", borderRadius:"2%"}}>
     <div style={{margin:"25px"}}>
 
    

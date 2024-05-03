@@ -24,65 +24,27 @@ function App() {
     <div className="App">
      
     
-     {/*
     
-    
-
-
-
-<Adduser/>
-
-
-
-<RemoveApp/>
-<Remove_User/>
-
-
-
- 
- 
-    
-   
-  
-    
-    
-    
-    
-    
-    
-   
-  <Users/>
-    <Sidenav/> */}
-    {/* 
-    
-   
-  
-   
-   <Login/>
-   */
-   }
-
-{/* 
-
-<Home/> 
-
-*/}
 
 <Login/>
 <VerifyPage/>
-<InvitationPage/>
-
+ <InvitationPage/>
 <Home/>
+
+<Users/>
 <Setting/>
 <ForgetPage/> 
-
+<Adduser/>
 <Authentic_App/>
 <Scan_Qr/>
 <EmailCheck/>
+<RemoveApp/>
 <PassChangeReq/>
+<Remove_User/>
 <NewPassword/>
 <Password_success/>
 
+   
    </div>
   );
 }

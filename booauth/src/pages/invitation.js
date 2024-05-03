@@ -2,11 +2,11 @@ export default function InvitationPage (){
     return(
         <>
         <div style={{display:"flex", justifyContent:"center",alignItems:'center',backgroundColor:"#F9F9F9",height:"100vh", width:"100vw"}}>
-            <div style={{height:'70%', width:"52%", backgroundColor:"#FFFFFF"}}>
+            <div style={{ width:"52%", backgroundColor:"#FFFFFF"}}>
                 <div style={{padding:"5%"}}>
                 <img src=".\boohub_logo.png"></img>
                 <p style={{fontWeight:"500", fontSize:"25px"}}>You're invited to BooHub Auth.</p>
-                <div style={{width:"100%", backgroundColor:'#DD51060A', paddingTop:"5%",paddingBottom:"5%"}}>
+                <div style={{width:"100%", backgroundColor:'#DD51060A', paddingTop:"5%",paddingBottom:"5%", marginBottom:"5%"}}>
                     <div style={{display:"flex", justifyContent:"center", marginTop:"5%"}}>
 
                     

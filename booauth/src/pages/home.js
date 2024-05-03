@@ -11,20 +11,21 @@ const [show_application, setShow_application]=useState(false);
     function show_Application(){
         console.log("hello")
      setShow_application(true);
+     document.body.style.overflow =  'hidden';
     }
     return(
 
 
 
         <>
-        <div style={{display:"flex",height:"100%", width:"100%",flexDirection:"column"}}>
+        <div style={{display:"flex",height:"100%", width:"100%",flexDirection:"column",position:'relative'}}>
             <div style={{display:"flex",height:"100%", width:"100%"}}>
             <Sidenav/>
        
        <div style={{border:"1px solid #1C1C1C1A", width:"95%"}}>
            <div style={{display:"flex", justifyContent:"space-between",paddingLeft:"2%",paddingRight:"2%"}}>
            <div>
-           <button style={{border: "none", height:"60px", width:"70px", borderBottom:" 2px solid #DD5106",backgroundColor:'white'}}>Home</button>
+           <button style={{border: "none", height:"60px", width:"70px", borderBottom:" 2px solid #DD5106",backgroundColor:'white',fontWeight:"500"}}>Home</button>
            </div>
 
            <div style={{display:"flex",alignItems:"center"}}>
@@ -39,7 +40,7 @@ const [show_application, setShow_application]=useState(false);
                        </div>
                    </div>
 
-                   <div >
+                   <div style={{marginRight:"10px",fontSize:"12px",lineHeight:"1.5"}} >
                    <p style={{margin:"0"}}>Bibash Khadka</p>
                    <p style={{margin:"0"}}>Admin</p>
                    </div>
@@ -54,8 +55,8 @@ const [show_application, setShow_application]=useState(false);
            <div style={{border:"1px solid #1C1C1C1A",borderBottom:"none",borderLeft:"none",  paddingLeft:"2%",paddingRight:"2%"}}>
                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                <div>
-               <p style={{fontWeight:"500"}}>Manage your application</p>
-               <p>You can manage,add or remove the application here</p>
+               <p style={{fontWeight:"500",marginBottom:"1%"}}>Manage your application</p>
+               <p style={{marginTop:"0",fontSize:'14px'}}>You can manage,add or remove the application here</p>
                </div>
                <div>
                    <button onClick={show_Application} style={{padding:"10px",backgroundColor:'#DD5106',border:"none", color:"white" }}>+ Add application</button>
@@ -63,7 +64,7 @@ const [show_application, setShow_application]=useState(false);
                </div>
 
                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-               <div style={{display:"flex",alignItems:"center"}}>
+               <div style={{display:"flex",alignItems:"center",color:"#393A60"}}>
                <img src=".\Path 320.svg" style={{height:"11px", marginRight:"10px"}}></img>
                <p>Search apps here...</p>
                
@@ -148,8 +149,8 @@ const [show_application, setShow_application]=useState(false);
        </div>
         </div>
         {show_application &&
-            <div style={{ position:"relative",bottom:"617px"}}>
-        <Add_application />
+            <div style={{ position:"relative",bottom:"655px"}}>
+                <Add_application/>
        </div>
         }
         

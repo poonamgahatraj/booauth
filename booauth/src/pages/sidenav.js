@@ -1,7 +1,7 @@
 export default function Sidenav (){
     return(
         <>
-        <div style={{display:"flex", justifyContent:"space-between", alignItems:"center",flexDirection:"column", border:"1px solid #E1E1E7", width:"5%", height:"100vh",paddingTop:'1%', borderBottom:"none"}}>
+        <div style={{display:"flex", justifyContent:"space-between", alignItems:"center",flexDirection:"column",  width:"5%", height:"100vh",paddingTop:'1%', borderBottom:"none"}}>
             <div style={{display:"flex", alignItems:"center",flexDirection:"column"}}>
                 <img src=".\boohub_logo.png" style={{height:"50px",marginBottom:"50px"}}></img>
                 <div style={{height:"50px"}}>
